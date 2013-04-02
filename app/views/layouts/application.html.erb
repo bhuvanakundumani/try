@@ -1,0 +1,58 @@
+
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Old Stairwell 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130313
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ThinkDiff Skool</title>
+<%= stylesheet_link_tag "default","templatemo_style", "js-image-slider",:media => "all" %>
+  <%= javascript_include_tag "js-image-slider" %>
+  <%= csrf_meta_tags %>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+<link href="assets/default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#"><img src= "/assets/logotds.svg" width=350px; height=110px/></a></h1>
+			<p></p>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><%= link_to "Home", "/pages/home" %></li>
+				<li><%= link_to "Programs", "/pages/programs" %></li>
+				<li><%= link_to "About Us", "/pages/aboutus" %></li>
+			
+				<li><%= link_to "ContactUs", "/pages/contactus" %></li>
+			</ul>
+		</div>
+	</div>
+
+
+<%= yield %>
+
+
+			
+
+
+
+<div id="footer">
+	<p>Copyright (c) 2013 www.thinkdiffskool.com. All rights reserved. Developed and Designed by Bhuvana KA </p>
+</div>
+</body>
+</html>
