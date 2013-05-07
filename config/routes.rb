@@ -8,6 +8,8 @@ Thinkdiffskool::Application.routes.draw do
   get "pages/careers"
 
   get "pages/contactus"
+   
+  get "pages/gallery"
     
  
     

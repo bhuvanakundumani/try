@@ -22,6 +22,10 @@ class PagesController < ApplicationController
     
   def scratchday
       
-  end 
+  end
+    
+  def gallery
+      
+  end
       
 end
