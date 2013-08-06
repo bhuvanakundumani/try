@@ -138,7 +138,7 @@ hr {
 #menu ul
 {
 	float: right;
-	margin: 0;
+	margin: ;
 	padding: 0px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
@@ -153,6 +153,7 @@ hr {
 {
 	display: block;
 	margin-left: 1px;
+	margin-top: 45px;
 	padding: 7px 0px 7px 30px;
 	letter-spacing: 1px;
 	text-decoration: none;
@@ -186,14 +187,14 @@ hr {
 
 #content {
 	float: left;
-	width: 750px;
+	width: 600px;
 }
 
 /** SIDEBAR */
 
 #sidebar {
 	float: right;
-	width: 300px;
+	width: 400px;
 }
 
 /* Footer */

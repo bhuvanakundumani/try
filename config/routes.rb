@@ -12,6 +12,7 @@ Thinkdiffskool::Application.routes.draw do
   get "pages/gallery"
     
  
+    get "pages/flyer"
     
     get "pages/gamedesign"
 
