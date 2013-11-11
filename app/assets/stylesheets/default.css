@@ -69,7 +69,7 @@ hr {
 	overflow: hidden;
 	width: 1200px;
 	margin: 50px auto;
-	background: #FFFFFF;
+	background: #ffffff;
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
 }
 
@@ -86,8 +86,8 @@ hr {
 
 #header {
 	overflow: hidden;
-	height: 190px;
-	background: #ffffff;
+	height: 230px;
+	background: #ffff66;
 }
 
 /* Logo */
@@ -176,7 +176,7 @@ hr {
 	overflow: hidden;
 	width: 1100px;
 	padding: 50px 50px;
-	background:#F6F6F6 url("yellow.jpg") repeat;
+	background:#ffffff; repeat;
 	color: #202020;
 }
 

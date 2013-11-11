@@ -21,7 +21,17 @@ Thinkdiffskool::Application.routes.draw do
     
     get "pages/scratchday"
 
+    get "pages/spectacularscience"
+    
+    get "pages/light"
 
+    get "pages/programming"
+    
+    get "pages/funtronics"
+    
+    get "pages/sciencetoymaker"
+    
+    get "pages/blog"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

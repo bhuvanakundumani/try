@@ -24,21 +24,34 @@ Released   : 20130313
 <!--[if IE 6]>
 <link href="default_ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
-</head>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40216415-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
 <body>
 <div id="wrapper">
 	<div id="header">
 		<div id="logo">
-			<h1><a href="#"><img src= "/assets/TDFLogo.png" width=420px; height=180px/></a></h1>
+			<h1><a href="#"><img src= "/assets/TDFLogotrans.png" width=420px; height=180px/></a></h1>
 			<p></p>
 		</div>
 		<div id="menu">
 			<ul>
 				<li><%= link_to "Home", "/pages/home" %></li>
 				<li><%= link_to "Programs", "/pages/programs" %></li>
+			
 				<li><%= link_to "About Us", "/pages/aboutus" %></li>
 				<li><%= link_to "Gallery", "/pages/gallery" %></li>
-			
+			<li><%= link_to "Blog", "/pages/blog" %></li>
 				<li><%= link_to "ContactUs", "/pages/contactus" %></li>
 			</ul>
 		</div>
