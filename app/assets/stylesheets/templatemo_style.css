@@ -25,7 +25,7 @@ cite { font-weight: bold; color:#333; }
 cite span { color: #333; }
 em { color: #333; font-weight: 400 }
 
-h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 200%;  }
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 200;  }
 h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
 h2 { font-size: 24px; margin: 0 0 20px; padding: 5px 0 10px 0; }
 h3 { font-size: 18px; margin: 0 0 15px; padding: 5px; }

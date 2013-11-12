@@ -28,9 +28,27 @@ class PagesController < ApplicationController
       
   end
     
+  def blog
+      
+  end
     
+  def light
+      
+  end
     
+    def programming
+        
+    end
+    
+ def funtronics
+     
+end
  
+def flyer
+end
     
+def spectacularscience
+    
+end
       
 end

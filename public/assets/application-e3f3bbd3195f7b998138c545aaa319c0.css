@@ -1,0 +1,583 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #22222D url("red.jpg") repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #545454;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+h2 {
+	padding: 0px 0px 20px 0px;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: #141414;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	overflow: hidden;
+	width: 1200px;
+	margin: 50px auto;
+	background: #ffffff;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	height: 230px;
+	background: #ffff66;
+}
+
+/* Logo */
+
+#logo
+{
+	float: left;
+	width: 350px;
+	padding: 30px 0px 0px 50px;
+}
+
+#logo h1
+{
+	padding: 5px 10px 0px 0px;
+}
+
+#logo h1 a
+{
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#logo p
+{
+	display: block;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+	font-size: 1em;
+	color: #7C7C7C;
+}
+
+#logo p a
+{
+	color: #7C7C7C;
+}
+
+/* Menu */
+
+#menu
+{
+	float: right;
+	width: 700px;
+	padding: 60px 50px 0px 0px;
+}
+
+#menu ul
+{
+	float: right;
+	margin: ;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li
+{
+	float: left;
+}
+
+#menu a
+{
+	display: block;
+	margin-left: 1px;
+	margin-top: 45px;
+	padding: 7px 0px 7px 30px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 800;
+	color: #000000;
+}
+
+#menu a:hover, #menu .current_page_item a
+{
+	text-decoration: none;
+	border-radius: 5px;
+	color: #ff0000;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	width: 1100px;
+	padding: 50px 50px;
+	background:#ffffff; repeat;
+	color: #202020;
+}
+
+#page h2 {
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	width: 600px;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: right;
+	width: 400px;
+}
+
+/* Footer */
+
+#footer {
+	overflow: hidden;
+	margin: 0px 50px;
+	padding: 30px 0px;
+	border-top: 5px solid #000000;
+}
+
+#footer p {
+	text-align: center;
+}
+
+#footer a {
+	color: #000000;
+}
+
+/* Three Column */
+
+#three-column {
+    background:#ffffff; repeat;
+	overflow: hidden;
+	margin: 0px 50px;
+	padding: 50px 0px;
+	font size:13px; 
+}
+
+#three-column #tbox1 {
+	float: left;
+	width: 300px;
+	margin-right: 100px;
+}
+
+#three-column #tbox2 {
+	float: left;
+	width: 300px;
+}
+
+#three-column #tbox3 {
+	float: right;
+	width: 300px;
+}
+
+/* List Style 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 10px 0px 15px 0px;
+	border-top: 1px solid #E6E7DC;
+}
+
+ul.style1 a {
+	text-decoration: none;
+	color: #545454;
+}
+
+ul.style1 a:hover {
+	text-decoration: underline;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+
+/* List style 2 */
+
+ul.style2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style2 li {
+	padding: 25px 0px 15px 0px;
+	border-top: 1px solid #DDDDDD;
+}
+
+ul.style2 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+ul.style2 h3 {
+	padding: 0px 0px 10px 0px;
+}
+
+ul.style2 h3 a {
+	color: #4F4F4F;
+}
+
+ul.style2 a {
+	text-decoration: none;
+	color: #919191;
+}
+
+ul.style2 a:hover {
+	text-decoration: underline;
+}
+
+/* Button Style 1 */
+
+.button-style {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 7px 20px;
+	background: #ffffff url("img01.png") repeat;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://www.menucool.com */
+
+#sliderFrame {position:relative;width:280px;} /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*//*add margin: 0 auto; to make it center aligned*/
+
+#ribbon {width:111px;height:111px;position:absolute;top:-4px;left:-4px;z-index:7;}
+        
+#slider {
+    width:280x;height:206px;/* Make it the same size as your images */
+	background:#fff no-repeat 50% 50%;
+	position:relative;
+/*to make the image slider center-aligned include	margin:0 auto; */
+    box-shadow: 0px 1px 5px #999999;
+}
+#slider img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider a.imgLink {
+	z-index:2;
+	display:none;position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+
+/* Caption styles */
+div.mc-caption-bg, div.mc-caption-bg2 {
+	position:absolute;
+	width:100%;
+	height:auto;
+	padding:0;
+	left:0px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+	bottom:0px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
+	z-index:3;
+	overflow:hidden;
+	font-size: 0;
+}
+div.mc-caption-bg {
+	background-color:black;
+}
+div.mc-caption {
+	font: bold 14px/20px Arial;
+	color:#EEE;
+	z-index:4;
+	padding:10px 0;/*Adding a padding-left or padding-right here will make the caption area wider than its background. Sometimes you may need to define its width again here to keep it the same width as its background area (div.mc-caption-bg).*/
+	text-align:center;
+}
+div.mc-caption a {
+	color:#FB0;
+}
+div.mc-caption a:hover {
+	color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+div.navBulletsWrapper  {
+	top:320px; left:280px; /* Its position is relative to the #slider */
+	width:150px;
+	background:none;
+	padding-left:20px;
+	position:relative;
+	z-index:5;
+	cursor:pointer;
+}
+
+/* each bullet */
+div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    background:transparent; no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:11px;/* distance between each bullet*/
+    _position:relative;/*IE6 hack*/
+}
+
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+#slider 
+{
+	transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+/*
+Credit: http://www.templatemo.com
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em; 
+	background url("red.jgp");
+	background-repeat: repeat;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+a, a:link, a:visited { color: #000000; font-weight: 400; text-decoration: underline; }
+a:hover { color: #930; text-decoration: none; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#333; }
+cite span { color: #333; }
+em { color: #333; font-weight: 400 }
+
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 200;  }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 20px; padding: 5px 0 10px 0; }
+h3 { font-size: 18px; margin: 0 0 15px; padding: 5px; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { position: relative; display: inline-block; width: 300px; height: 168px; margin: 3px 0 10px 0; }
+.image_wrapper img { z-index: 1000; position: absolute; top: 0; left: 0; width: 300px; height: 150px; }
+.image_wrapper span {  position: absolute; border: 0; left: 0; width: 300px; height: 168px; background: url("templatemo_image_bg.jpg") no-repeat }
+
+.image_fl { float: left; margin: 3px 20px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 20px }
+
+
+.tmo_list { margin: 10px 0 10px 10px; padding: 0; list-style: none }
+.tmo_list li { color:#bfb839; margin: 0; padding: 0 0 5px 15px; background: url("templatemo_list.jpg") no-repeat scroll 0 4px  }
+.tmo_list li a { color: #bfb839; font-weight: normal; font-size: 12px; text-decoration: none }
+.tmo_list li a:hover { color: #bfb839; text-decoration: underline }
+
+
+#templatemo_wrapper {
+	width: 812px;
+	margin: 0 auto;
+	padding-left: 6px;
+/*	background: #fff; */
+}
+
+#templatmeo_header {
+	width: 806px;
+	height: 10px;
+	padding: 15px 0 15px 6px;
+}
+
+#site_title { float: left; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 300px; height: 125px; background:url("logotds.svg")  no-repeat top left; color: #000; font-size: 40px; font-weight: 400; outline: none; text-indent: -10000px; }
+
+#templatemo_menu { float: right; margin-top: 40px; }
+#templatemo_menu ul { padding: 0; margin: 0; list-style: none; }
+#templatemo_menu ul li { margin: 0; padding: 0; display: inline-block }
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	font-size: 18px;
+	color: #333;	
+	margin-left: 40px;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul .current {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#templatemo_main {
+	clear: both;
+	width: 1200px;
+	margin: 0 0 0 0px;
+}
+
+.content_top { clear: both; height: 10px }
+.content_box { outline-color:#000;  width: 1000px; margin-bottom: 30px; padding: 70px 70px 70px 76px; background: url("yellow.jpg")repeat ;}
+
+.content_title { position: absolute; width: 106px; height: 104px;
+ top: -5px; left: -6px; }
+
+.content_home { background: url(templatemo_content_home.png) no-repeat }
+.content_aboutus { background: url(/assets/templatemo_content_aboutus.png) no-repeat }
+.content_services { background: url(/assets/templatemo_content_services.png) no-repeat }
+.content_portfolio { background: url(/assets/templatemo_content_portfolio.png) no-repeat }
+.content_contactus { background: url(/assets/templatemo_content_contactus.png) no-repeat }
+
+a.gototop { display: block; position: absolute; width: 140px; height: 20px; padding: 45px 5px 0 0; text-align: right; font-size: 14px; bottom: 0; right: 0; color: #000; text-decoration: none; }
+a.gototop:hover { text-decoration: underline }
+ 
+.col_w310 { width: 400px }
+
+.post_box { width: 1000px; margin: 5 5 5 5px; padding: 2 2 2 4px;  }
+.post_header { border-top: 3px solid #999; border-bottom: 1px solid #ccc; padding: 5px; margin-bottom: 20px }
+.post_box h3 { font-size: 24px; line-height: 34px; margin-bottom: 15px }
+.post_box p.post_meta { font-size: 10px; margin-bottom: 0; padding-bottom: 0 }
+
+#gallery { margin: 0; padding: 0 }
+#gallery ul { margin: 0; padding: 0}
+#gallery ul li { display: block; position: relative; display: inline-block; width: 300px; height: 168px; margin: 0 30px 30px 0 }
+#gallery ul img { z-index: 1000; position: absolute; top: 0; left: 0; width: 300px; height: 150px; }
+#gallery ul span {  position: absolute; border: 0; left: 0; width: 300px; height: 168px; background: url(/assets/templatemo_image_bg.jpg) no-repeat }
+
+#contact_form { padding: 0; width: 300px }
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { width: 290px; padding: 5px; color: #666; border: 1px solid #ccc;  background: #fff; }
+#contact_form form label { display: block; width: 100px; margin-right: 10px; margin-bottom: 3px; font-size: 14px; }
+
+#contact_form form textarea { width: 288px; height: 80px; padding: 5px; color: #666; border: 1px solid #ccc;  background: #fff; font-family: Arial, Helvetica, sans-serif; }
+#contact_form form .submit_btn { background: #e1dc5e; color: #000; cursor: pointer; border: 1px solid #c9c447; padding: 7px 14px; margin-right: 30px; }
+
+#templatemo_footer {
+	clear: both;
+	width: 800px;
+	padding: 0 0 20px 6px;
+	text-align: center;
+	color: #000;
+}
+
+#templatemo_footer a { color: #000 }
